@@ -38,8 +38,8 @@ evaluate('results_filename.csv', 'groundtruth_filename.csv', {
     console.error(error.message)
     return
   }
-  console.log('MAP (301):', q0.map)
-  console.log('MAP (302):', q1.map)
+  console.log('MAP (301):', q301.map)
+  console.log('MAP (302):', q302.map)
   console.log('MAP (avg):', all.map)
   // ...
 })
