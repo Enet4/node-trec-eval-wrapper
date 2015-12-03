@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "outDir": "lib",
+    "sourceMap": true,
+    "declaration": true
+  },
+  "files": [
+    "src/index.ts",
+    "src/trec-eval.ts",
+    "typings/tsd.d.ts",
+    "typings/trec-options.d.ts",
+    "typings/trec-evaluation.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

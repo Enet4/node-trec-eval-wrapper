@@ -1,0 +1,33 @@
+{
+  "name": "trec-eval-wrapper",
+  "version": "1.0.0",
+  "description": "Node.js wrapper module for access to `trec_eval`, TREC's information retrieval system evaluation tool",
+  "author": "Eduardo Pinho <enet4mikeenet@gmail.com>",
+  "scripts": {
+    "postinstall": "tsd update",
+    "build": "tsc",
+    "prepublish": "tsc"
+  },
+  "typescript": {
+    "definitions": [
+      "typings/trec-options.d.ts",
+      "typings/trec-summary.d.ts"
+    ]
+  },
+  "files": [
+    "lib",
+    "!lib/*.map",
+    "typings/trec-options.d.ts",
+    "typings/trec-evaluation.d.ts"
+  ],
+  "main": "lib/index.js",
+  "devDependencies": {
+    "array.prototype.findindex": "^1.0.0",
+    "tsd": "^0.6.5",
+    "typescript": "^1.7.3"
+  },
+  "dependencies": {
+    "csv-parser": "^1.8.1"
+  },
+  "license": "MIT"
+}
