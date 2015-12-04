@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "Node.js wrapper module for access to `trec_eval`, TREC's information retrieval system evaluation tool",
   "author": "Eduardo Pinho <enet4mikeenet@gmail.com>",
+  "keywords": [
+    "trec_eval",
+    "trec",
+    "typescript"
+  ],
   "scripts": {
     "postinstall": "tsd update",
     "build": "tsc",
