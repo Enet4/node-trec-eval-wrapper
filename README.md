@@ -54,9 +54,9 @@ interface TRECEvaluationCallback {
   (error:Error, results:TRECEvaluationSet) : any
 }
 
-export function evaluate(testFilename:string, groundtruthFilename:string, options:TRECOptions, callback:TRECEvaluationCallback) : void
+evaluate(testFilename:string, groundtruthFilename:string, options:TRECOptions, callback:TRECEvaluationCallback) : void
 
-export function evaluate(testFilename:string, groundtruthFilename:string, callback:TRECEvaluationCallback) : void
+evaluate(testFilename:string, groundtruthFilename:string, callback:TRECEvaluationCallback) : void
 ```
 
 Perform an evaluation.
