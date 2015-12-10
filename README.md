@@ -68,7 +68,7 @@ Perform an evaluation.
 #### version
 
 ```TypeScript
-version(callback:(error:Error, version:string) => void) : void
+version(callback:(error:Error, version:string) => any) : void
 ```
 
 Obtain the version of the underlying `trec_eval` tool.
