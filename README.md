@@ -50,8 +50,13 @@ evaluate('results_filename.csv', 'groundtruth_filename.csv', {
 #### evaluate
 
 ```TypeScript
-evaluate(testFilename:string, groundtruthFilename:string, callback:(error:Error, results:TRECEvaluationSet) => void) : void
-evaluate(testFilename:string, groundtruthFilename:string, options:TRECOptions, callback:(error:Error, results:TRECEvaluationSet) => void) : void
+interface TRECEvaluationCallback {
+  (error:Error, results:TRECEvaluationSet) : any
+}
+
+export function evaluate(testFilename:string, groundtruthFilename:string, options:TRECOptions, callback:TRECEvaluationCallback) : void
+
+export function evaluate(testFilename:string, groundtruthFilename:string, callback:TRECEvaluationCallback) : void
 ```
 
 Perform an evaluation.
