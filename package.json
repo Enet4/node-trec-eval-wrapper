@@ -9,7 +9,6 @@
     "typescript"
   ],
   "scripts": {
-    "postinstall": "tsd update",
     "build": "tsc",
     "prepublish": "tsc"
   },
@@ -28,7 +27,6 @@
   "main": "lib/index.js",
   "devDependencies": {
     "array.prototype.findindex": "^1.0.0",
-    "tsd": "^0.6.5",
     "typescript": "^1.7.3"
   },
   "dependencies": {
