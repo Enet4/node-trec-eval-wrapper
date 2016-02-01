@@ -1,6 +1,6 @@
 {
   "name": "trec-eval-wrapper",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Node.js wrapper module for access to `trec_eval`, TREC's information retrieval system evaluation tool",
   "author": "Eduardo Pinho <enet4mikeenet@gmail.com>",
   "keywords": [
